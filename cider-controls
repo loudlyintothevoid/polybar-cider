@@ -1,0 +1,4 @@
+[module/cider-controls]
+type = custom/text
+
+content = %{A1:**path/to/run-cider.sh**:}%{T10}󰎆%{T-}%{A} %{A1:playerctl --player=playerctld previous:}󰙣%{A} %{A1:playerctl --player=playerctld play-pause:}󰐌%{A} %{A1:playerctl --player=playerctld next:}󰙡%{A}
